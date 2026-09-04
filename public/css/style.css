@@ -6,21 +6,24 @@ body {
     margin-top: 0;
     margin-bottom: 0;
     padding: 0;
-    max-width: 1080px;  
+    max-width: 1080px;
     background-image: url("../img/site_fundo.svg");
     background-size: cover;
 }
-nav{
+
+nav {
     overflow: hidden;
     background-color: #333;
 }
-nav ul{
+
+nav ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
     display: flex;
 }
-nav ul a{
+
+nav ul a {
     float: left;
     color: #f2f2f2;
     padding: 14px 16px;
@@ -29,12 +32,39 @@ nav ul a{
     font-size: 1em;
 }
 
-nav ul a:hover:not(.active){
+nav ul a:hover:not(.active) {
     background-color: lightgray;
     color: #1c1c1c;
     font-weight: bold;
 }
 
-nav ul li a.active{
+nav ul li a.active {
     background-color: #04AA6D;
+}
+
+.photo-card {
+    background-color: greenyellow;
+    width: 920px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 10px;
+    color: aliceblue;
+}
+
+.intro-photo {
+    background-size: cover;
+    max-width: 60%;
+    height: 680px;
+    padding: 10px;
+    margin: 10px;
+    border-radius: 15px;
+}
+#intro1{
+    background-image: url("../img/gp4.jpg");
+}
+#intro2{
+    background-image: url("../img/gp2.jpg");
+}
+main{
+    background-color: rgba(0, 0, 0, 0.04);
 }

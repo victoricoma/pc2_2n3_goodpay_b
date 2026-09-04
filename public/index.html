@@ -13,7 +13,7 @@
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
     <link rel="icon" type="image/png" sizes="32x32"
         href="https://user-images.githubusercontent.com/31005408/178034510-400bc31a-2829-4584-b5e3-fbb78c8fc3e3.png">
-        <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/style.css">
 </head>
 
 <body>
@@ -27,22 +27,15 @@
                 <li><a href="#">Contato</a></li>
             </ul>
         </nav>
-        <hr />
         <h1>
-            <span class="material-symbols-outlined">
-                credit_card_heart
-            </span>
-            GoodPay
-        </h1>
-        <h6>
-            <span class="material-symbols-outlined">
-                temp_preferences_eco
-            </span>
-            Ecomoney para compor o seu negócio
-        </h6>
     </header>
     <main>
-        <section name="texto-intro" style="color: darkblue;">
+        <section>
+            <div class="banner">
+                <img src="./img/banner.png" alt="banner" width="100%">
+            </div>
+        </section>
+        <section name="texto-intro">
             <h1>
                 Nossa História
             </h1>
@@ -68,7 +61,7 @@
                 tecnológica responsável e cidadania.
             </p>
         </section>
-        <section name="historia" style="color: black;" id="nossa-historia">
+        <section name="historia" id="nossa-historia">
             <h2><strong>
                     <span class="material-symbols-outlined">
                         whatshot
@@ -120,57 +113,51 @@
             </blockquote>
         </section>
         <section name="galeria-imagens" id="fotos-contexto">
-            <center>
-                <table
-                    style="max-width: 920px;background-color: aquamarine; border-radius: 15px; padding: 1%; margin: 2%;">
-                    <tr>
-                        <td>
-                            <img src="./img/gp1.jpg" alt="Galeria 1" width="144px" height="256px">
-                        </td>
-                        <td>
-                            Investir em sustentabilidade, com o GoodPay é investir em futuro e esperança nas próximas
-                            gerações. Energia Solar, Eco Reciclagem e Consumo de reuso faz para todos.
-                        </td>
-                        <td>
-                            <img src="./img/gp2.jpg" alt="Galeria 2" width="144px" height="256px">
-                        </td>
-                        <td>
-                            Plante futuro e colha seus frutos de redenção, os passos para um futuro de novas gerações
-                            começa com sua visão de consumo. No nosso aplicativo uma rede de empresas se unem para um
-                            sistema colaborativo de ecorentabilidade.
-                        </td>
-                    </tr>
-                    <tr>
-                        <td>
-                            Eco sustentável é a casa do futuro, tenha sistema de energia limpa e ganhe pontuação para
-                            consumir com nossos colaboradores. Em parceria com a Energy a GoodPay troca pontos de
-                            Energia Solar por produtos em nosso MarketPlace, de vestuário a eletrônicos temos aqui.
-                        </td>
-                        <td>
-                            <img src="./img/gp3.jpg" alt="Galeria 3" width="144px" height="256px">
-                        </td>
-                        <td>
-                            Eco reforma, seu jardim pode render dinheiro, já pensou em vender consumo de agua de reuso,
-                            com o sistema de captação de agua da GoodPay podemos coletar de 20 até 500 mil m<sup>3</sup>
-                            para limpeza ou mesmo para utilização em sistema de hidraúlica motora.
-                        </td>
-                        <td>
-                            <img src="./img/gp4.jpg" alt="Galeria 4" width="144px" height="256px">
-                        </td>
-                    </tr>
-                </table>
-            </center>
+            <table>
+                <tr>
+                    <td>
+                        <img src="./img/gp1.jpg" alt="Galeria 1" width="144px" height="256px">
+                    </td>
+                    <td>
+                        Investir em sustentabilidade, com o GoodPay é investir em futuro e esperança nas próximas
+                        gerações. Energia Solar, Eco Reciclagem e Consumo de reuso faz para todos.
+                    </td>
+                    <td>
+                        <img src="./img/gp2.jpg" alt="Galeria 2" width="144px" height="256px">
+                    </td>
+                    <td>
+                        Plante futuro e colha seus frutos de redenção, os passos para um futuro de novas gerações
+                        começa com sua visão de consumo. No nosso aplicativo uma rede de empresas se unem para um
+                        sistema colaborativo de ecorentabilidade.
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        Eco sustentável é a casa do futuro, tenha sistema de energia limpa e ganhe pontuação para
+                        consumir com nossos colaboradores. Em parceria com a Energy a GoodPay troca pontos de
+                        Energia Solar por produtos em nosso MarketPlace, de vestuário a eletrônicos temos aqui.
+                    </td>
+                    <td>
+                        <img src="./img/gp3.jpg" alt="Galeria 3" width="144px" height="256px">
+                    </td>
+                    <td>
+                        Eco reforma, seu jardim pode render dinheiro, já pensou em vender consumo de agua de reuso,
+                        com o sistema de captação de agua da GoodPay podemos coletar de 20 até 500 mil m<sup>3</sup>
+                        para limpeza ou mesmo para utilização em sistema de hidraúlica motora.
+                    </td>
+                    <td>
+                        <img src="./img/gp4.jpg" alt="Galeria 4" width="144px" height="256px">
+                    </td>
+                </tr>
+            </table>
         </section>
         <section name="divisores">
-            <div style="background-color: greenyellow; width: 920px; 
-            margin-left: auto; margin-right: auto; padding: 10px; color: aliceblue;">
-                <div style="background-image: url('./img/gp2.jpg'); background-size: cover;
-                max-width: 60%; height: 680px; padding: 10px;">
+            <div class="photo-card">
+                <div class="intro-photo" id="intro1">
                     <h1>Casa Inteligente e Ecosuficiente</h1>
                     <p>Sua casa rede dinheiro com sustentabilidade.</p>
                 </div>
-                <div style="background-image: url('./img/gp3.jpg'); background-size: cover;
-                max-width: 60%; height: 680px; padding: 10px;">
+                <div class="intro-photo" id="intro2">
                     <h1>Eco Energy Jardim</h1>
                     <p>Um jardim de possibilidades para sua agua e reutilização de energia.</p>
                 </div>
